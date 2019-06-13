@@ -1,0 +1,83 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cheiro Verde</title>
+<link href="estilocardapio.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<div id="banner">
+    </div>
+    
+    <div id="corpo">
+<body>
+	<header>
+    	<h1 id="title">Restaurante Cheiro Verde</h1>
+    </header>
+ 	<section>
+     <form action="pedido.php" name="formulario" method="post">
+    	<h1>Faça seu pedido: </h1>
+        <label class="label">Insira seu nome: </label>
+        <input type="text" name="nome" placeholder="João Silva" size="50" required/>
+        <br><br>
+        
+        <label class="label">Insira o endereço: </label>
+        <br>
+        <input type="text" name="endereco" placeholder="Rua das Flores, 100" size="50" required/>
+        <br><br>
+        
+        <label class="label">Insira o bairro: </label>
+        <br>
+        <input type="text" name="bairro" placeholder="Jardim Margarida" size="50" required/>
+        <br><br>
+        
+        <label class="label">Insira seu telefone: </label>
+        <input type="text" name="telefone" placeholder="(XX) XXXXX-XXXX" size="50" required/>
+        <br><br>
+        
+        <label class="label">Escolha o prato desejado: </label>
+        <br> 
+        <select name="prato" required>
+        	<option disabled selected></option>
+        	<option value="MACARRONADA">MACARRONADA</option>
+            <option value="FEIJOADA">FEIJOADA</option>
+            <option value="CAMARÃO A DONA ZUILA">CAMARÃO A DONA ZUILA</option>
+            <option value="MOQUECA MARANHENSE">MOQUECA MARANHENSE</option>
+            <option value="FILÉ DE FRANGO">FILÉ DE FRANGO</option>
+            <option value="DOURADA ENSOPADA">DOURADA ENSOPADA</option>
+            <option value="SOPA DE LEGUMES">SOPA DE LEGUMES</option>
+            <option value="RISOTO DE CARNE">RISOTO DE CARNE</option>
+        </select><br><br>
+        
+        <label class="label">Escolha a bebida: </label>
+        <br>
+        <select name="bebida" required>
+        	<option disabled selected></option>
+        	<option value="NENHUMA">NENHUMA</option>
+            <option value="COCA COLA">COCA COLA</option>
+            <option value="FANTA LARANJA">FANTA LARANJA</option>
+            <option value="FANTA UVA">FANTA UVA</option>
+            <option value="GUARANÁ ANTÁRTICA">GUARANÁ ANTÁRTICA</option>
+            <option value="PEPSI">PEPSI</option>
+        </select><br><br>
+        
+         <label class="label">Escolha o tamanho: </label> 
+         <br> 
+        <select name="tamanho" required>
+        	<option disabled selected></option>
+        	<option value="NENHUMA">NENHUMA</option>
+            <option value="350ml">350ml</option>
+            <option value="600ml">600ml</option>
+            <option value="1,5L">1,5L</option>
+            <option value="2L">2L</option>
+        </select><br><br>
+        <div id="botão">
+        <input type="submit" value="Realizar pedido">
+        <input type="reset" value="Limpar">
+        </div>
+        
+        </form>
+	</section> 
+</body>
+	</div>
+</html>

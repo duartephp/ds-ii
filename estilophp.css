@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:url(imgs/cardapio.jpg);
+	font-family: 'Kosugi Maru', sans-serif;
+	font-size:16px;
+	padding:1em;
+	text-align:left;
+}
+
+#corpo{
+	background-color:#FFFFFF;
+	width:510px;
+	height:100%;
+	padding:1em;
+	margin:0 auto;
+	border-radius:15px;
+	box-shadow:#000000 5px 5px 5px;
+	margin-top:10px;
+	text-align:justify;
+	font-size:25px;
+	font-family: 'Kosugi Maru', sans-serif;
+
+}
+
+#title{
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+	color:#000;
+	
+}
